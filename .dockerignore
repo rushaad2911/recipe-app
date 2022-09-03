@@ -1,0 +1,17 @@
+ # Git
+.git
+.gitignore
+
+# Docker
+
+.docker  # it is a hidden file in created by docker on creation
+
+# Python
+# created when python code is run and may create problems for other people because it may be specific to our os
+app/__pycache__/ 
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
